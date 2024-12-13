@@ -13,5 +13,5 @@ Simple Wordle game on python
 
 Если необходимость в сборе слов для игры отсутствует (все слова из словаря записаны в файле Wordle/data/slovarozhegova.xlsx, а слова для игры в файле Wordle/data/df_5_letters.xlsx), то запускать файлы `GetSlovarOzhegova` и `GetFiveLetterWords` не нужно.
 
-Для изменения длины угадываемых слов в игре нужно изменить код `GetFiveLetterWords.ipynb`\ 
+Для изменения длины угадываемых слов в игре нужно изменить код `GetFiveLetterWords.ipynb`\
 Для изменения количества попыток - `Wordle.ipynb`
