@@ -1,17 +1,17 @@
 # Wordle
-Simple Wordle game on python
+A simple Wordle-like game in Python.
 
-Этот проект посвящен написанию простой игры Wordle на русском языке.
+This project aims to create a simple version of the popular Wordle game in Russian.
 
-Проект содержит несколько скриптов (в данном случае я не стал их объединять в один, для большей нагляности):
-  - Первый скрипт `"GetSlovarOzhegova.ipynb"` собирает слова из онлайн словаря и записывает их в excel файл;
-  - Второй скрипт `"GetFiveLetterWords.ipynb"` обрабатывает все слова, полученные ранее (удаляет лишние пробелы, цифры и лишние знаки из слов) и записывает в файл только слова, состоящие из 5 букв;
-  - Файл `"Wordle.ipynb"` является игрой Wordle для угадывания слов на русском языке.
+The project contains several scripts (in this case, I did not combine them into one, for greater clarity):
+  - The first script `GetSlovarOzhegova.ipynb` collects words from an online dictionary [slovarozhegova.ru] and writes them to an excel file;
+  - The second script `GetFiveLetterWords.ipynb` processes all words received earlier (removes extra spaces, numbers, and extra characters from words) and writes only words consisting of 5 letters to the file;
+  - The file `Wordle.ipynb` is a Wordle game for guessing words in Russian.
 
-Все данные в файлах excel находятся в папке data.
-При необходимости можно поменять длину угадываемых слов и количество попыток в коде.
+All data in excel files is located in the data folder.
+If necessary, you can change the length of the guessed words and the number of attempts in the code.
 
-Если необходимость в сборе слов для игры отсутствует (все слова из словаря записаны в файле Wordle/data/slovarozhegova.xlsx, а слова для игры в файле Wordle/data/df_5_letters.xlsx), то запускать файлы `GetSlovarOzhegova` и `GetFiveLetterWords` не нужно.
+If there is no need to collect words for the game (all words from the dictionary are recorded in the file `Wordle/data/slovarozhegova.xlsx`, and the words for the game in the file `Wordle/data/df_5_letters.xlsx`), then you don't need to run the `GetSlovarOzhegova` and `GetFiveLetterWords` files.
 
-Для изменения длины угадываемых слов в игре нужно изменить код `GetFiveLetterWords.ipynb`\
-Для изменения количества попыток - `Wordle.ipynb`
+To change the length of the guessed words in the game, you need to change the code `GetFiveLetterWords.ipynb`\
+To change the number of attempts - `Wordle.ipynb`
